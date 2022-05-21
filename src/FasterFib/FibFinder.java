@@ -6,7 +6,7 @@ public class FibFinder {
      * @param n the number to find in the Fib sequence
      * @return returns the found number
      */
-    public static long nthNumberFinder(long n) {
+    public static long nthNumberFinder(int n) {
         long[] fibList = new long[(int) (n + 2)];
         int i;
         fibList[0] = 0;
